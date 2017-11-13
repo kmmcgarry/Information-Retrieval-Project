@@ -1,22 +1,29 @@
 import xml.etree.ElementTree as ET
 
-tree = ET.parse('NCT00000102.xml')
-root = tree.getroot()
-# [child.attr for child in root if 'eligibility' == child.tag]
+class xmlfile:
+	def __init__(self,file):
+		tree = ET.parse(file)
+		root = tree.getroot()
+		for eligi in root.findall('eligibility'):
+			self.textblock = eligi.find('criteria').find('textblock').text
+			self.gender = eligi.find('gender').text
+			self.minimum_age = eligi.find('minimum_age').text
+			self.maximum_age = eligi.find('maximum_age').text
+			self.healthy_volunteers = eligi.find('healthy_volunteers').text
 
-# c = 0 
-# for child in root:
-# 	if 'eligibility' == child.tag:
-# 		for k in child.tag:
-# 			print k
-# 	c+=1
-for eligi in root.findall('eligibility'):
-	textblock = eligi.find('criteria').find('textblock').text
-	gender = eligi.find('gender').text
-	minimum_age = eligi.find('minimum_age').text
-	maximum_age = eligi.find('maximum_age').text
-	healthy_volunteers = eligi.find('healthy_volunteers').text
-	print textblock
+if __name__ == "__main__":
+	xml = xmlfile('../NCT00000102.xml')
+	print(xml.textblock)
+	print(xml.gender)
+	print(xml.minimum_age)
 
 
-# print(root[0][0].text)
+
+
+
+
+
+
+
+
+
