@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
 	#changing working directory
 	# os.chdir()
-	with sqlite.connect('../test.db') as con:
+	with sqlite.connect('/Users/kristen/Desktop/test.db') as con:
 	# 2. Create the movie_genre table and load data into it
 		cur = con.cursor()    
 		cur.execute("DROP TABLE IF EXISTS clinical_trials")
