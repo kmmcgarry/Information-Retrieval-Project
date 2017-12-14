@@ -180,46 +180,57 @@
     <other>None</other>
   </topic>
   <topic number="31">
+    <disease>Carninoma of unknown primary</disease>
+    <gene>JAK2 (V617F), PIK3CA (E81K)</gene>
+    <demographic>65-year-old male</demographic>
+    <other>None</other>
+  </topic>
+  <topic number="32">
     <disease>Anal melanoma</disease>
-    <gene>KRAS (G12D)</gene>
+    <gene>KIT (L577P)</gene>
     <demographic>56-year-old male</demographic>
     <other>Depression, Hypertension</other>
   </topic>
-  <topic number="32">
+  <topic number="33">
     <disease>Appendiceal cancer</disease>
     <gene>P53 (H193R)</gene>
     <demographic>23-year-old female</demographic>
     <other>None</other>
   </topic>
-  <topic number="33">
+  <topic number="34">
+    <disease>Moderately differentiated pancreatic adenocarcinoma</disease>
+    <gene>KRAS, TP53, CDKN2A</gene>
+    <demographic>44-year-old female</demographic>
+    <other>None</other>
+  </topic>
+  <topic number="35">
     <disease>Moderately differentiated pancreatic adenocarcinoma</disease>
     <gene>KRAS, TP53</gene>
     <demographic>65-year-old male</demographic>
     <other>None</other>
   </topic>
-  <topic number="34">
+  <topic number="36">
     <disease>Pancreatic adenocarcinoma</disease>
     <gene>XRCC1</gene>
     <demographic>37-year-old female</demographic>
     <other>None</other>
   </topic>
-  <topic number="35">
+  <topic number="37">
     <disease>Pancreatic adenocarcinoma</disease>
     <gene>XRCC1</gene>
     <demographic>76-year-old male</demographic>
     <other>None</other>
   </topic>
-  <topic number="36">
+  <topic number="38">
     <disease>Intraductal papillary mucinous neoplasm with high-grade dysplasia</disease>
     <gene>FGFR4, KIT</gene>
     <demographic>72-year-old male</demographic>
     <other>None</other>
   </topic>
-  <topic number="37">
+  <topic number="39">
       <disease>Pancreatic adenocarinoma</disease>
       <gene>ERCC2</gene>
       <demographic>63-year-old male</demographic>
       <other>None</other>
     </topic>
-
 </topics>

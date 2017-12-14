@@ -1,0 +1,58 @@
+<topics task="2017 TREC Precision Medicine">
+  <topic number="100">
+    <disease>Colon cancer</disease>
+    <gene>Microsatellite Instability (high); MLH1 methylation positive</gene>
+    <demographic>65-year-old male</demographic>
+    <other>Hypercholesterolemia</other>
+    <pmid>28455965, 28453697, 28341242, 28327908</pmid>
+    <nctid>NCT02912559, NCT00898846</nctid>
+  </topic>
+  <topic number="101">
+    <disease>Pancreatic adenocarcinoma</disease>
+    <gene>KRAS (G12D)</gene>
+    <demographic>69-year-old male</demographic>
+    <other>Alcoholism, Cirrhosis, Stroke</other>
+    <pmid>27010960, 26156229, 25748236, 27308320</pmid>
+    <nctid>NCT01394120</nctid>
+  </topic>
+  <topic number="102">
+    <disease>Squamous cell carcinoma, head and neck</disease>
+    <gene>Human Papilloma Virus (Type 16 positive)</gene>
+    <demographic>59-year-old male</demographic>
+    <other>Hypertension</other>
+    <pmid>27305732, 27061545, 25803099</pmid>
+    <nctid>NCT01268579</nctid>
+  </topic>
+  <topic number="103">
+    <disease>Biliary tract cancer</disease>
+    <gene>HER2/neu Amplification</gene>
+    <demographic>64-year-old female</demographic>
+    <other>Hypertension</other>
+    <pmid>27658789, 26022204, 22433475</pmid>
+    <nctid>NCT00478140</nctid>
+  </topic>
+  <topic number="104">
+    <disease>Prostate cancer</disease>
+    <gene>AR Amplification</gene>
+    <demographic>76-year-old male</demographic>
+    <other>Arthritis</other>
+    <pmid>27959342, 28144969, 28089830</pmid>
+    <nctid>NCT01393730</nctid>
+  </topic>
+  <topic number="105">
+    <disease>Pancreatic cancer</disease>
+    <gene>ARID1A</gene>
+    <demographic>62-year-old female</demographic>
+    <other>Diabetes</other>
+    <pmid>26154128, 25719666, 25714017</pmid>
+    <nctid>NCT02893085</nctid>
+  </topic>
+  <topic number="106">
+    <disease>Endometrial cancer</disease>
+    <gene>PIK3CA Amplification</gene>
+    <demographic>44-year-old female</demographic>
+    <other>Diabetes</other>
+    <pmid>21531001, 19261849, 17258789</pmid>
+    <nctid>NCT01013324</nctid>
+  </topic>
+</topics>
